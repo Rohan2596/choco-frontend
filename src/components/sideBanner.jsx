@@ -6,7 +6,7 @@ export class SideBanner extends Component {
       return (
         <>
         <div className="sideBanner">
-        <img src={side_banner} alt="side_banner" className="sidebanner-image" />
+        <img src={side_banner} alt="sideBanner_image" className="sidebanner-image" />
         </div>
 
         </>
