@@ -7,9 +7,10 @@ export class SignUpIn extends Component {
       return (
         <>
         <div className="signUpIn_main">
-            <SideBanner/>
+        <HeaderBar  />
+
             <div className="header_form">
-                <HeaderBar  />
+            <SideBanner/>
 
             </div>
         </div>

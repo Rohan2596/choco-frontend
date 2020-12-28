@@ -1,6 +1,6 @@
 import  React,{Component}  from "react";
 import '../../src/style.css'
-import side_banner from '../assets/side_banner_img.jpg'
+import side_banner from '../assets/side_banner_image.png'
 export class SideBanner extends Component {
     render() {
       return (
