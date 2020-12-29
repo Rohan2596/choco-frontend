@@ -3,6 +3,7 @@ import '../../src/style.css'
 import { SideBanner } from "../components/sideBanner";
 import { HeaderBar } from "../components/headerBar";
 import { SignIn } from "../components/signIn";
+import { SignUp } from "../components/signUp";
 export class SignUpIn extends Component {
     render() {
       return (
@@ -12,7 +13,8 @@ export class SignUpIn extends Component {
 
             <div className="header_form">
             <SideBanner/>
-             <SignIn/>  
+             {/* <SignUp/>   */}
+             <SignIn/>
             </div>
         </div>
 

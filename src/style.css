@@ -113,3 +113,12 @@
     border-radius: 3%;
     background-color: blue;
 }
+.forgot_password{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: underline mediumblue;
+    color: mediumblue;
+    font-size: medium;
+    margin-top: 1vh;
+}

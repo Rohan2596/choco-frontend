@@ -7,7 +7,7 @@ export class HeaderBar extends Component {
         <>
         <div className="headerBar">
         <img src={choco_logo} alt="header_logo" className="header-logo" />
-        <button className="sign_button">SignIn</button>
+        <button className="sign_button">Contact Us</button>
         </div>
 
         </>
