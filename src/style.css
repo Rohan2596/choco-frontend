@@ -122,3 +122,37 @@
     font-size: medium;
     margin-top: 1vh;
 }
+.dashboard_buttons{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    align-items: center;
+    
+}
+.dash_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 2%;
+    color: black;
+    outline: none;
+    background-color: white;
+    border: none;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+.dash_button:hover{
+    color: mediumblue;
+    text-decoration: underline;
+}
+.dashboard_icon{
+    width:2vw
+}
+.dashboard_buttons:hover{
+    color: mediumblue;
+    fill: mediumblue;
+}
